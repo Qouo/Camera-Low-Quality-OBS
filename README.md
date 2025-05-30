@@ -28,7 +28,8 @@ This OBS plugin applies a **retro low-quality video effect** to any source by:
 
 ### 🧱 Build From Source
 
-#```bash
+###
+bash
 git clone https://github.com/YOUR_USERNAME/obs-lowres-filter.git
 cd obs-lowres-filter
 mkdir build && cd build
@@ -70,7 +71,6 @@ Here are a few enhancements planned for this plugin:
 
 
 ##  Why Use This?
-.
 
 Use this plugin to:
 
@@ -81,8 +81,8 @@ Use this plugin to:
 
 ## 👤 Author
 
-Created by Will Soteros 
-Built using the [OBS Studio Plugin API](https://github.com/obsproject/obs-studio)
+- Created by Will Soteros 
+- Built using the [OBS Studio Plugin API](https://github.com/obsproject/obs-studio)
 
 
 ##  License
