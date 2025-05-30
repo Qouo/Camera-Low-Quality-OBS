@@ -1,85 +1,42 @@
-# Camera-Low-Quality-OBS
+#  OBS Low-Res 144p Filter Plugin
 
-📺 OBS Low-Res 144p Filter Plugin
-🔧 Simulate bad video on purpose. For comedy, nostalgia, or... chaos.
-This OBS plugin applies a retro low-quality video effect to any source by:
+##  Simulate bad video on purpose — for comedy, nostalgia, or chaos
 
-Downscaling it to 144p resolution
+This OBS plugin applies a **retro low-quality video effect** to any source by:
 
-Capping it at 15–20 FPS
+- Downscaling it to **144p resolution**
+- Capping it at **15–20 FPS**
+- Upscaling it back to **1080p**, so it still fits your layout
 
-Upscaling it back to 1080p so it still fits your layout
+This is for if you work from home and they require camera on, make it low quality! 
+---
 
-Perfect for streamers, pranksters, or anyone who wants to look like they’re broadcasting from a potato 📦📡
+## Current Features
 
-🚀 Features
-🎥 Downscale any source to 144p
+- Downscale any source to **144p**
+- Limit framerate to ~15–20fps
+- Output resolution stays at **1920×1080**
+- Works as a **video filter** on any source
+- Built using the OBS plugin SDK
 
-🕒 Force framerate to ~15–20fps (optional frame skipping logic)
+---
 
-📈 Output maintains 1920×1080 canvas size
+## Installation
 
-🖥️ Works as a filter on any video source
+### Requirements
 
-🧱 Built with OBS Studio's plugin SDK
+- OBS Studio (v27 or newer recommended)
+- CMake
+- C++ compiler (MSVC, GCC, Clang, etc.)
+- Git (optional)
 
-📦 Installation
-✅ Requirements
-OBS Studio (v27+ recommended)
+---
 
-CMake
+### Build From Source
 
-A C++ compiler
-
-Git (optional)
-
-💻 Build From Source (macOS/Linux/Windows)
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/YOUR_USERNAME/obs-lowres-filter.git
 cd obs-lowres-filter
 mkdir build && cd build
 cmake -DLIBOBS_INCLUDE_DIR="/path/to/obs/include" ..
 cmake --build . --config Release
-⚠️ Replace /path/to/obs/include with the actual path to OBS headers on your system.
-
-Copy the resulting .so, .dylib, or .dll file into OBS’s plugins directory:
-
-Windows: C:\Program Files\obs-studio\obs-plugins\64bit
-
-macOS: /Library/Application Support/obs-studio/plugins
-
-Linux: ~/.config/obs-studio/plugins
-
-🧪 How to Use
-Launch OBS.
-
-Add or select a video source (like your webcam).
-
-Click the “Filters” button on that source.
-
-Click the + under Effect Filters → Choose “Low-Res 144p Filter”
-
-Watch your stream transform into glorious potato quality.
-
-📋 To-Do
- Add FPS control slider
-
- Enable fake compression artifacts
-
- Toggle dithering modes
-
- Pre-built binaries for Windows/macOS/Linux
-
-❓ Why?
-Sometimes, high-quality isn't the vibe.
-
-Whether you're doing a retro tech skit, looking for a fun transition effect, or trying to make your webcam look like a YouTube video from 2007 — this plugin's for you.
-
-🧠 Credits
-Created by YOUR NAME
-Built using the OBS Studio Plugin API
-
-📜 License
-MIT License — use it, modify it, break it, fix it.
