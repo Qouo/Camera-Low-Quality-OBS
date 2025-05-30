@@ -26,7 +26,7 @@ This OBS plugin applies a **retro low-quality video effect** to any source by:
 - C++ compiler (MSVC, GCC, Clang, etc.)
 - Git (optional)
 
-### 🧱 Build From Source
+###  Build From Source
 
 
 `bash
