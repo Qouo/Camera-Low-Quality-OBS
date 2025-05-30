@@ -1,6 +1,6 @@
 #  OBS Low-Res 144p Filter Plugin
 
-##  Simulate bad video on purpose — for comedy, nostalgia, or chaos
+##  Simulate bad video on purpose — to stick it to that micromanager
 
 This OBS plugin applies a **retro low-quality video effect** to any source by:
 
