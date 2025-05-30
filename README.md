@@ -8,8 +8,6 @@ This OBS plugin applies a **retro low-quality video effect** to any source by:
 - Capping it at **15–20 FPS**
 - Upscaling it back to **1080p**, so it still fits your layout
 
-This is for if you work from home and they require camera on, make it low quality! 
----
 
 ## Current Features
 
@@ -18,8 +16,6 @@ This is for if you work from home and they require camera on, make it low qualit
 - Output resolution stays at **1920×1080**
 - Works as a **video filter** on any source
 - Built using the OBS plugin SDK
-
----
 
 ## Installation
 
@@ -30,7 +26,6 @@ This is for if you work from home and they require camera on, make it low qualit
 - C++ compiler (MSVC, GCC, Clang, etc.)
 - Git (optional)
 
----
 
 ### Build From Source
 
