@@ -35,7 +35,7 @@ cd obs-lowres-filter
 mkdir build && cd build
 cmake -DLIBOBS_INCLUDE_DIR="/path/to/obs/include" ..
 cmake --build . --config Release
-
+```
 
 Once built, copy the plugin binary to your OBS plugin folder:
 
