@@ -26,16 +26,15 @@ This OBS plugin applies a **retro low-quality video effect** to any source by:
 - C++ compiler (MSVC, GCC, Clang, etc.)
 - Git (optional)
 
+### 🧱 Build From Source
 
-### Build From Source
-
-```bash
+#```bash
 git clone https://github.com/YOUR_USERNAME/obs-lowres-filter.git
 cd obs-lowres-filter
 mkdir build && cd build
 cmake -DLIBOBS_INCLUDE_DIR="/path/to/obs/include" ..
 cmake --build . --config Release
-```
+
 
 Once built, copy the plugin binary to your OBS plugin folder:
 
